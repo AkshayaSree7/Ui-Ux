@@ -1098,6 +1098,9 @@ background-clip: text;
         font-size: 40px;
         line-height: 50px;
     }
+    .size-50{
+        font-size: 40px;
+    }
     #home,
     .disply-table {
         height: 600px;
