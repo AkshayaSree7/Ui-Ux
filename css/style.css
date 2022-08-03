@@ -1094,7 +1094,7 @@ background-clip: text;
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Poppins', serif;
         font-size: 40px;
         line-height: 50px;
     }
