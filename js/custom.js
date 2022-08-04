@@ -96,7 +96,7 @@ $(document).ready(function () {
     const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
-
+const linkItem = document.querySelectorAll(".nav-item");
 
 hamburger.addEventListener('click', ()=>{
    //Animate Links
@@ -108,6 +108,19 @@ hamburger.addEventListener('click', ()=>{
     //Hamburger Animation
     hamburger.classList.toggle("toggle");
 });
+
+for (let i = 0; i < linkItem.length; i++) {
+    linkItem[i].addEventListener('click',()=>{
+        navLinks.classList.remove("open");
+        hamburger.classList.remove("toggle");
+        links.forEach(link => {
+            link.classList.remove("fade");
+        });
+    })
+    
+}
+
+
 // new header 1 ends
 
 

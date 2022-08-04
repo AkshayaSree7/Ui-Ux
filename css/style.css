@@ -1053,9 +1053,9 @@ background-clip: text;
         background-size: 100%; 
    }
    .icons8-medium:hover{
-    /* color: #2cc854;  */
+    color: #2cc854 !important; 
     background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%);
--webkit-text-fill-color: transparent;
+/* -webkit-text-fill-color: transparent; */
  -webkit-background-clip: text;
 background-clip: text; 
    }
