@@ -22,6 +22,7 @@
 @import 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap';
 /*
 font-family: 'Playfair Display', serif;
+font-family: 'Gambetta', serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -32,10 +33,12 @@ font-family: 'Poppins', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Poppins', serif;
-    font-size: 40px;
+    /* font-family: 'Poppins', serif; */
+    font-family: 'Gambetta', serif;
+    font-style: italic;
+    font-size: 55px;
     line-height: 70px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h4 {
@@ -637,6 +640,11 @@ background-clip: text; */
 
 .timeline-event-copy h3 {
     font-size: 1.75em;
+    background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+
 }
 
 .timeline-event-copy h4 {
@@ -1095,7 +1103,8 @@ background-clip: text;
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Poppins', serif;
+        font-family: 'Gambetta', serif;
+        font-style: italic;
         font-size: 40px;
         line-height: 50px;
     }
