@@ -87,10 +87,113 @@ body{
 
 .proces-title{
     line-height: 65px;
+    
 }
 
 
-   @media screen and (max-width: 800px){
+ /* Discovery  section -5
+==================================================*/
+.discovery{
+    background-color: #121212; 
+}
+
+.discovery-box1{
+    background-color: #EAB86E;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.discovery-box2{
+    background-color: #E06F98; 
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.discovery-box1 >h2 {
+    font-size: 40px;
+   }
+   .discovery-box2 >h2{
+    font-size: 40px;
+   }
+.dis-height{
+    height: 300px;
+}
+
+ /* Abstraction section -5
+==================================================*/
+.abstraction-box{
+    margin-left: 80px;
+    }
+   .abstraction-box  >h2{
+    font-size: 40px;}
+
+               
+    .brainstorm{
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     height: 435px;
+     width: 100%;
+    }
+
+
+    /* Creation section -5
+==================================================*/
+
+.proces-title2{
+    margin-right: 50px;
+    }
+
+
+    .struggle{
+        padding-left: 64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 435px;
+    width: 100%;
+    margin-left: 30px;
+    }
+
+    .creation-box1{
+        background-color: #5344FF;
+        padding: 30px;
+        border-radius: 15px;
+    
+    }
+    .creation-box2{
+        background-color: #5CD083; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .creation-box3{
+        background-color: #F4C071; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .creation-box4{
+        background-color: #9c3bc8; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+    
+    .creation-box5{
+        background-color: #b22d5d; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+    
+    .creation-box1 >h2, .creation-box2 >h2, .creation-box3 >h2,
+    .creation-box4 >h2, .creation-box5 >h2 {
+        font-size: 40px;
+       }
+     
+  
+  
+  
+  
+    @media screen and (max-width: 800px){
     .row{
         padding: 15px 0;
        } 
@@ -116,18 +219,60 @@ body{
         line-height: 40px;
        }
 
-       .idea-box{
+       .idea-box,.discovery-box1, .discovery-box2 .creation-box1, .creation-box2,
+       .creation-box3, .creation-box4, .creation-box5, .wire-frame{
         margin-top: 30px;
        }
-
+       
        .product-process{
         margin-top: 64px;
        }
 
        .proces-title{
         line-height: 40px;
-    }
+        }
+        .proces-title2{
+        margin-right: 0px;
+        }
+
+        .discovery-box1 >h2, .discovery-box2 >h2 {
+        font-size: 30px;
+        }
+       
+
+       .dis-height{
+        height: auto;
+        }
+
+       .abstraction-box{
+        margin-left: 0px;
+        }
+
+       .brainstorm{
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+        width: 100%;
+        }
+
+        .struggle{
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            height: auto;
+            width: 100%;
+            margin-left: 0px;}
+
+            .creation-box1 >h2, .creation-box2 >h2, .creation-box3 >h2,
+            .creation-box4 >h2, .creation-box5 >h2 {
+                font-size: 30px;
+               }
+              
+        
+            }
     
-}
+    
+
 
 

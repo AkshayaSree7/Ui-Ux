@@ -87,7 +87,91 @@ body{
 .proces-title{
     line-height: 65px;
 }
+ /* Discovery  section -5
+==================================================*/
+.discovery{
+    background-color: #121212; 
+}
 
+.discovery-box1{
+    background-color: #ADEEB8;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.discovery-box2{
+    background-color: #989BEC; 
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.discovery-box1 >h2 {
+    font-size: 40px;
+   }
+   .discovery-box2 >h2{
+    font-size: 40px;
+   }
+ /* Abstraction section -5
+==================================================*/
+    .abstraction-box{
+    margin-left: 80px;
+    }
+   .abstraction-box  >h2{
+    font-size: 40px;}
+
+               
+    .brainstorm{
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     height: 435px;
+     width: 100%;
+    }
+
+ /* Creation section -5
+==================================================*/
+
+    .proces-title2{
+        margin-right: 50px;
+        }
+
+
+        .struggle{
+            padding-left: 64px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 435px;
+        width: 100%;
+        margin-left: 30px;
+        }
+
+        .creation-box1{
+            background-color: #E7E9A7;
+            padding: 30px;
+            border-radius: 15px;
+        
+        }
+        .creation-box2{
+            background-color: #F9C3B7; 
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .creation-box3{
+            background-color: #EBB2FF; 
+            padding: 30px;
+            border-radius: 15px;
+        }
+        
+        .creation-box1 >h2 {
+            font-size: 40px;
+           }
+           .creation-box2 >h2{
+            font-size: 40px;
+           }
+           .creation-box3 >h2{
+            font-size: 40px;
+           }
 
 @media screen and (max-width: 800px){
     .row{
@@ -117,7 +201,8 @@ body{
         line-height: 40px;
        }
 
-       .idea-box{
+       .idea-box,.discovery-box1, .discovery-box2, .creation-box1, .creation-box2,
+       .creation-box3, .wire-frame{
         margin-top: 30px;
        }
 
@@ -127,8 +212,45 @@ body{
 
        .proces-title{
         line-height: 40px;
+        
+    }
+    .proces-title2{
+    margin-right: 0px;
     }
     
     
+
+    
+.discovery-box1 >h2 {
+    font-size: 30px;
+   }
+   .discovery-box2 >h2{
+    font-size: 30px;
+   }
+   .abstraction-box{
+    margin-left: 0px;
+}
+.brainstorm{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: auto;
+    width: 100%;
+   }
+
+   .struggle{
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+
+    }
+    .creation-box1 >h2, .creation-box2 >h2,  .creation-box3 >h2 {
+        font-size: 30px;
+       }
+      
+  
 }
 
