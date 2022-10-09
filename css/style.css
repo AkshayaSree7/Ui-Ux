@@ -36,18 +36,20 @@ font-family: 'Poppins', sans-serif;
 
 h1 {
     /* font-family: 'Poppins', serif; */
-    font-family: 'Albertta',serif;
+    /* font-family: 'Albertta',serif; */
+    font-family: 'Gilroy', sans-serif;
    
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 55px;
     line-height: 70px;
     font-weight: 700;
 
-    background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%);
+    /* background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%);
                 -webkit-text-fill-color: transparent;
                 -webkit-background-clip: text;
-                background-clip: text;
+                background-clip: text; */
                 padding-bottom: 5px;
+                color: white;
 }
 
 h4 {
@@ -816,12 +818,12 @@ background-clip: text; */
 
 .portfolio .categories-grid .categories ul li a.active {
     /* background-color: #2cc854; */
-    background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%);
+    background: linear-gradient(0deg, #39ba92 0%, #a3d290 100%);
     border-radius: 20px;
     font-weight: 600;
 
     padding: 0px 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -842,13 +844,14 @@ background-clip: text; */
     left: 0px;
     height: 100%;
     width: 100%;
-    /* background-color: #2cc8538f; */
-    background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%);
+    background-color: #0000008f;
+    /* background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%); */
 
      /* background: rgba(0, 0, 0, 0.24);  */
      box-shadow: 0 10px 30px rgba(60, 60, 60, 0.4);
      backdrop-filter: blur(7px);
-     border-right: 1px solid rgba(255, 255, 255, 0.1);
+     /* border-right: 1px solid rgba(255, 255, 255, 0.1); */
+     border-radius: 15px;
 
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
@@ -872,7 +875,7 @@ background-clip: text; */
 
 .portfolio_item .portfolio_item_hover .item_info span {
     display: block;
-    color: #fff;
+    color: rgb(209, 209, 209);
     font-size: 26px;
     letter-spacing: 1.5px;
     -webkit-transform: translateY(-100px);
@@ -894,7 +897,7 @@ background-clip: text; */
     border-radius: 20px;
 
     padding: 5px 20px;
-    color: #fff;
+    color: rgb(209, 209, 209);
     margin-top: 10px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
@@ -1298,8 +1301,8 @@ background-clip: text;
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Gambetta', serif;
-        font-style: italic;
+        font-family: 'Gilroy', serif;
+       
         font-size: 40px;
         line-height: 50px;
     }
