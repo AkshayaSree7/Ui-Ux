@@ -1,5 +1,7 @@
 // JavaScript Document
 
+
+
 $(window).load(function () {
     "use strict";
     // makes sure the whole site is loaded
@@ -110,6 +112,38 @@ hamburger.addEventListener('click', ()=>{
     //Hamburger Animation
     hamburger.classList.toggle("toggle");
 });
+
+
+ //scroll to top starts
+const button = document.querySelector('.btn');
+
+const displayButton = () => {
+  window.addEventListener('scroll', () => {
+    console.log(window.scrollY);
+  
+    if (window.scrollY > 100) {
+      button.style.display = "block";
+    } else {
+      button.style.display = "none";
+    }
+  });
+};
+
+const scrollToTop = () => {
+  button.addEventListener("click", () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    }); 
+    console.log(event);
+  });
+};
+
+displayButton();
+scrollToTop();
+
+ //scroll to top ends
 
 for (let i = 0; i < linkItem.length; i++) {
     linkItem[i].addEventListener('click',()=>{

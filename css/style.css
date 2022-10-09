@@ -235,7 +235,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 6px;
     
     border-radius: 3px;
   }
@@ -252,6 +252,37 @@ body {
     background: linear-gradient(0deg, rgba(57,186,146,1) 0%, rgba(163,210,144,1) 100%);
     border-radius: 50px;
   }
+
+  /* Scroll to top
+======================================================*/
+  .btn {
+    display: none;
+    cursor: pointer;
+    position: fixed; 
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    color: rgba(163,210,144,1);
+    /* border: 1px solid rgba(163,210,144,1); */
+    /* text-decoration: none; */
+}
+
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    color: white;
+    /* outline-offset: -2px; */
+}
+
 
 
 /* Header

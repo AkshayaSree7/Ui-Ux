@@ -51,6 +51,10 @@
         </div>
     </div>
     <!-- ./Preloader -->
+
+    <!-- Scroll to top starts -->
+    <button class="btn">Top</button>
+    <!-- Scroll to top starts -->
     
     <!-- header -->
     
@@ -484,6 +488,13 @@
 
     <!--  main script  -->
     <script src="js/custom.js"></script>
+
+    <script>
+        $(window).on('beforeunload', function() {
+          $('body').hide();
+          $(window).scrollTop(0);
+        });
+        </script>
 </body>
 
 </html>
