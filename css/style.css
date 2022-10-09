@@ -1293,6 +1293,7 @@ background-clip: text;
     .about-intro{
         font-size: 26px;
       }
+      
 }
 
 @media (max-width: 500px) {
@@ -1323,6 +1324,7 @@ background-clip: text;
     .about-intro{
         font-size: 15.5px;
       }
+     
 }
 
 @media (max-width: 420px) {
@@ -1388,6 +1390,9 @@ background-clip: text;
    .bld-txt{
     font-size: 20px;
 }
+.text-padding{
+    padding-top: 150px;
+  }
 
    
 }
@@ -1520,3 +1525,14 @@ background-clip: text;
     }
 
 }
+
+
+/* lost PAGE
+==================================================*/
+.text-center {
+    text-align: center;
+  }
+
+  .text-padding{
+    padding-top: 120px;
+  }
