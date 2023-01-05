@@ -171,13 +171,6 @@ for (let i = 0; i < linkItem.length; i++) {
 
 }
 
-// Email send
-function sendEmailDefault(){
-  var email = "example@example.com";
-  var subject = "Test Email";
-  var msgBody = "Thank you for contacting us, we will get back to you in 24 hours!";
-  window.open(`mailto:${email}?subject=${subject}&body=${msgBody}`);
-}
 
 // new header 1 ends
 
