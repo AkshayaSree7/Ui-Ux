@@ -609,6 +609,16 @@
           $(window).scrollTop(0);
         });
         </script>
+         <script>
+            jQuery( document ).ready(function( $ ) {
+
+//Use this inside your document ready jQuery 
+$(window).on('popstate', function() {
+  location.reload(true);
+});
+
+});
+        </script>
          
 </body>
 
