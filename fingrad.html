@@ -587,16 +587,15 @@
           $(window).scrollTop(0);
         });
         </script>
-         <script>
-            jQuery( document ).ready(function( $ ) {
-
-//Use this inside your document ready jQuery 
-$(window).on('popstate', function() {
-  location.reload(false);
-});
-
-});
-        </script>
+          <script>
+            (function () {
+	window.onpageshow = function(event) {
+		if (event.persisted) {
+			window.location.reload();
+		}
+	};
+})();
+         </script>
          
          
     
