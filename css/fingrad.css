@@ -361,7 +361,7 @@ margin-bottom: 75px;
 }
 @media (max-width: 420px) {
     .features-newversion{
-        height: auto;
+        height: 320px ! important;
        }
 }
 
