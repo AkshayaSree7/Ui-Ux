@@ -114,6 +114,15 @@ margin-bottom: 75px;
     font-size: 40px;
    }
 
+
+      /* New ideation 
+==================================================*/
+   .features-newversion{
+    height: 400px !important;
+    object-fit: cover;
+   
+   }
+
    /* Product Process section -4
 ==================================================*/
 
@@ -346,6 +355,14 @@ margin-bottom: 75px;
         object-fit: contain;
     
 }
+
+
   
 }
+@media (max-width: 420px) {
+    .features-newversion{
+        height: auto;
+       }
+}
+
 
