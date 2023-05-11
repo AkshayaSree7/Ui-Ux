@@ -1109,7 +1109,15 @@ background-clip: text;
     
     margin-bottom: 100px;
   }
-
+  /* visual design banner
+==================================================*/
+  .visual-banner{
+    width: 75%;
+    display: block;
+    margin: auto;
+   
+   
+  }
 
 /* contact
 ==================================================*/
@@ -1523,6 +1531,11 @@ background-clip: text;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+.visual-banner{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+  }
 }
    
 
