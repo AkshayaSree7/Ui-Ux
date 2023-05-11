@@ -1118,6 +1118,12 @@ background-clip: text;
    
    
   }
+  .visual-button{
+    display: block;
+   
+    margin: auto;
+    text-align:center; width:300px;
+  }
 
 /* contact
 ==================================================*/
@@ -1801,6 +1807,22 @@ background-clip: text;
     
     padding: 10px 0px;
     text-align: center;
+}
+.chip-text-b {
+    /* margin: 0.2rem 4px; */
+    margin: 5px 15px 5px 0px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 0.025px solid #1a1c1c;
+   
+    /* border-image: linear-gradient(145deg, rgb(57, 57, 57),#1a1c1c) 1; */
+    
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.chip-text-b:hover{
+    border: 0.025px solid #4a4a4a;
 }
 
 .chip-length {
